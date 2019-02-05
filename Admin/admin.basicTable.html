@@ -1,0 +1,552 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nathan James - Admin</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
+    <link rel="stylesheet" href="assets/scss/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
+
+</head>
+<body>
+        <!-- Left Panel -->
+
+ 
+        <aside id="left-panel" class="left-panel">
+            <nav class="navbar navbar-expand-sm navbar-default">
+    
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="admin.dashboard.html"><img src="../img/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand hidden" href="admin.dashboard.html"><img src="../img/logo.png" alt="Logo"></a>
+                </div>
+    
+                <div id="main-menu" class="main-menu collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="admin.dashboard.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                        </li>
+    
+                        <h3 class="menu-title">Actions</h3><!-- /.menu-title -->
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-film"></i>Movie</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                <li><i class="fa fa-plus"></i><a href="admin.movie.html">Add</a></li>
+                                <li><i class="fa fa-wrench"></i><a href="admin.movie.html">Update</a></li>
+                                <li><i class="fa fa-search"></i><a href="admin.movie.html">Search</a></li>
+                                <li><i class="fa fa-trash"></i><a href="admin.movie.html">Delete</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user-circle-o"></i>Customers</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                <li><i class="fa fa-search"></i><a href="admin.user.html"> Search</a></li>
+                                <li><i class="fa fa-trash"></i><a href="admin.user.html"> Delete</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-video-camera"></i>Theatre</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                <li><i class="menu-icon fa fa-wrench"></i><a href="admin.theatre.html">Update</a></li>
+                                <li><i class="menu-icon fa fa-search"></i><a href="admin.theatre.html">Search</a></li>
+                                <li><i class="menu-icon fa fa-trash"></i><a href="admin.theatre.html">Delete</a></li>
+    
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cutlery"></i>Snacks</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                    <li><i class="fa fa-plus"></i><a href="admin.snacks.html"> Add</a></li>
+                                    <li><i class="fa fa-wrench"></i><a href="admin.snacks.html"> Update</a></li>
+                                <li><i class="fa fa-search"></i><a href="admin.snacks.html"> Search</a></li>
+                                <li><i class="fa fa-trash"></i><a href="admin.snacks.html"> Delete</a></li>
+                            </ul>
+                        </li>
+                        
+                        <h3 class="menu-title">Data Comings</h3><!-- /.menu-title -->
+                        
+                        <li class="menu-item-has-children dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
+                            <ul class="sub-menu children dropdown-menu">
+                                <li><i class="fa fa-table"></i><a href="admin.basicTable.html">Basic Table</a></li>
+                                <li><i class="fa fa-table"></i><a href="admin.dataTable.html">Data Table</a></li>
+                            </ul>
+                        </li>
+    
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </aside><!-- /#left-panel -->
+    
+        <!-- Left Panel -->
+    
+
+    <!-- Right Panel -->
+
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <!-- Header-->
+        <header id="header" class="header">
+
+            <div class="header-menu">
+
+                <div class="col-sm-7">
+                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                    <div class="header-left">
+                        <button class="search-trigger"><i class="fa fa-search"></i></button>
+                        <div class="form-inline">
+                            <form class="search-form">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
+                                <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="dropdown for-notification">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell"></i>
+                            <span class="count bg-danger">5</span>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="notification">
+                            <p class="red">You have 3 Notification</p>
+                            <a class="dropdown-item media bg-flat-color-1" href="#">
+                                <i class="fa fa-check"></i>
+                                <p>Nathan James</p>
+                            </a>
+                            <a class="dropdown-item media bg-flat-color-4" href="#">
+                                <i class="fa fa-info"></i>
+                                <p>Nathan James</p>
+                            </a>
+                            <a class="dropdown-item media bg-flat-color-5" href="#">
+                                <i class="fa fa-warning"></i>
+                                <p>Nathan James</p>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="dropdown for-message">
+                          <button class="btn btn-secondary dropdown-toggle" type="button"
+                                id="message"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="ti-email"></i>
+                            <span class="count bg-primary">9</span>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="message">
+                            <p class="red">You have 4 Mails</p>
+                            <a class="dropdown-item media bg-flat-color-3" href="#">
+                                <span class="photo media-left"><img alt="avatar" src="images/avatar/1.jpg"></span>
+                                <span class="message media-body">
+                                    <span class="name float-left">Platform Notifications</span>
+                                    <span class="time float-right">Just now</span>
+                                        <p>Your Google Developers Console project is scheduled for deletion</p>
+                                </span>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item media bg-flat-color-3" href="#">
+                                <span class="photo media-left"><img alt="avatar" src="images/avatar/2.jpg"></span>
+                                <span class="message media-body">
+                                    <span class="name float-left">Pinterest </span>
+                                    <span class="time float-right">5 minutes ago</span>
+                                        <p>You've got 18 new ideas waiting for you!</p>
+                                </span>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item media bg-flat-color-3" href="#">
+                                <span class="photo media-left"><img alt="avatar" src="images/avatar/3.jpg"></span>
+                                <span class="message media-body">
+                                    <span class="name float-left">Firebase</span>
+                                    <span class="time float-right">10 minutes ago</span>
+                                        <p>[Firebase] Welcome to Firebase!</p>
+                                </span>
+                            </a>
+                            <hr>
+                            <a class="dropdown-item media bg-flat-color-3" href="#">
+                                <span class="photo media-left"><img alt="avatar" src="images/avatar/4.jpg"></span>
+                                <span class="message media-body">
+                                    <span class="name float-left">
+                                        Evernote Team</span>
+                                    <span class="time float-right">15 minutes ago</span>
+                                        <p>
+                                            Bigger notes. Better results.</p>
+                                </span>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="user-avatar rounded-circle" src="../img/admin.jpg" alt="User Avatar">
+                        </a>
+
+                        <div class="user-menu dropdown-menu">
+                                <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a>
+
+                                <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
+
+                                <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
+
+                                <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                        </div>
+                    </div>
+
+                    <div class="language-select dropdown" id="language-select">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                            <i class="flag-icon flag-icon-lk"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language" >
+                            <div class="dropdown-item">
+                                <span class="flag-icon flag-icon-fr"></span>
+                            </div>
+                            <div class="dropdown-item">
+                                <i class="flag-icon flag-icon-es"></i>
+                            </div>
+                            <div class="dropdown-item">
+                                <i class="flag-icon flag-icon-us"></i>
+                            </div>
+                            <div class="dropdown-item">
+                                <i class="flag-icon flag-icon-it"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header><!-- /header -->
+        <!-- Header-->
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                        <button type="button" class="btn btn-success btn-sm" onclick="refresh();" >
+                                <i class="fa fa-refresh"></i> Refresh Page
+                              </button>
+                              
+                    </div><br>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li><a href="#">Dashboard</a></li>
+                            <li class="active">Entry Tables</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Movie - List of recently added data will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col" id="movieid" >FilmId</th>
+                                  <th scope="col" id="moviename" >Name</th>
+                                  <th scope="col" id="movietheatre" >Theatre</th>
+                                  <th scope="col" id="moviedescription" >Description</th>
+                                  <th scope="col" id="movieactor" >Main Actor</th>
+                                  <th scope="col" id="movieactress" >Main Actress</th>
+                                  <th scope="col" id="movieproducer" >Producer</th>
+                                  <th scope="col" id="movieimage" >Image Link</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row" id="id1" >F001</th>
+                                  <td id="name1" >Nobody's Fool (2018)</td>
+                                  <td id="theatre1" >A</td>
+                                  <td id="status1" >Now Showing</td>
+                                  <td id="actor1" > Tiffany Haddish</td>
+                                  <td id="actress1" > Courtney Henggeler</td>
+                                  <td id="producer1" > Tyler Perry</td>
+                                  <td id="link1" > localhost/imageone</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-1"></div>
+
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Customers  - List of recently added data will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Customer Id</th>
+                                  <th scope="col">First Name</th>
+                                   <th scope="col">Last Name</th>
+                                  <th scope="col">Email</th>
+                                  <th scope="col">Mobile Number</th>
+                                  <th scope="col">Password</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row" id="id2">B001</th>
+                                  <td id="first2">U001</td>
+                                  <td id="last2">01.01.2018</td>
+                                  <td id="email2">Tiger </td>
+                                  <td id="mobile2">TH01</td>
+                                  <td id="password2">10.30</td>
+                                  
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-1"></div>
+
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Theatres  - List of recently added data will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Theatre Id</th>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Movie Runninng</th>
+                                  <th scope="col">Next Movie</th>
+                                  <th scope="col">Remaining Seats</th>
+                                  <th scope="col">Reserved Seats</th>
+                                  <th scope="col">Time Slot</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row" id="id3" >U001</th>
+                                  <td id="name3" >Kalhara</td>
+                                  <td id="movierunning3" >Perera</td>
+                                  <td id="nextmovie3" >adorekasun@icloud.com</td>
+                                  <td id="remainingseats3" >0779219315</td>
+                                  <td id="reservedseats3" >0779219315</td>
+                                  <td id="timeslot3" >0779219315</td>
+                                </tr>
+                                
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Buying  - List of recently added data will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Buying Id</th>
+                                  <th scope="col">Date</th>
+                                  <th scope="col">Movie</th>
+                                  <th scope="col">Seats</th>
+                                  <th scope="col">Snack Price</th>
+                                  <th scope="col">Snacks</th>
+                                  <th scope="col">Ticket Price</th>
+                                  <th scope="col">Total Price</th>
+                                  <th scope="col">User</th>
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                                  <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                                  <td>@fat</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>Larry</td>
+                                  <td>the Bird</td>
+                                  <td>@twitter</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Snacks  - List of recently added data will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">SnackId</th>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Description</th>
+                                  <th scope="col">Price</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                                  <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                                  <td>@fat</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>Larry</td>
+                                  <td>the Bird</td>
+                                  <td>@twitter</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong class="card-title">Seats - List of recently added Seats will be shown here</strong>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                              <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Seats Id</th>
+                                  <th scope="col">Status</th>
+                                  
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Mark</td>
+                                 
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Jacob</td>
+                                 
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>Larry</td>
+                                  
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-1"></div>
+
+                </div>
+            </div><!-- .animated -->
+        </div><!-- .content -->
+
+
+    </div><!-- /#right-panel -->
+
+    <!-- Right Panel -->
+
+
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyA6swDC9X6ngehYczHLzxsk_Pck-b20ikY",
+        authDomain: "nathan-james-web.firebaseapp.com",
+        databaseURL: "https://nathan-james-web.firebaseio.com",
+        projectId: "nathan-james-web",
+        storageBucket: "nathan-james-web.appspot.com",
+        messagingSenderId: "429172932466"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+<script src="admin.basicTable.js"></script>
+
+
+</body>
+</html>

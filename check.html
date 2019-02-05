@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="heading">The Button Element</h2>
+
+<hr>
+
+<form action="/action_page.php">
+    First name: <input type="text" id="firstname" name="FirstName" ><br>
+    Last name: <input type="text" id="lastname" name="LastName" ><br>
+    </form>
+    <button id="button" type="button" onclick="fuckthis()">Submit</button>
+
+<script>
+
+</script>
+
+
+   
+
+<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA6swDC9X6ngehYczHLzxsk_Pck-b20ikY",
+    authDomain: "nathan-james-web.firebaseapp.com",
+    databaseURL: "https://nathan-james-web.firebaseio.com",
+    projectId: "nathan-james-web",
+    storageBucket: "nathan-james-web.appspot.com",
+    messagingSenderId: "429172932466"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="check.js"></script>
+ 
+</body>
+</html>
